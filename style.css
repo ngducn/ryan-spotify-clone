@@ -148,7 +148,7 @@ a:hover {
     position: relative;
     width: 527px;
 	height: 320px;
-    background: linear-gradient(blue,lightblue,yellow,orange,red,black);
+    background: linear-gradient(#5223ef,lightblue,yellow,orange,red,black);
 }
 
 .upper-box {
