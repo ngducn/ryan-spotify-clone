@@ -1,0 +1,259 @@
+body {
+	font-family: 'Cabin', sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto; /*  center this div with margin left and right auto */
+}
+
+/* Navbar */
+img {
+	max-width: 95vw;
+	height: auto;
+}
+
+nav {
+	background-color: black;
+	position: fixed;
+	z-index: 10;
+	width: 100%;
+}
+
+nav .container {
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.links {
+    display: flex;
+	flex-wrap: wrap;
+    
+}
+
+.links * {
+	margin: 15px;
+	color: white;
+	font-weight: 600;
+}
+
+nav span {
+    pointer-events: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #1ed760;
+}
+
+/* Section 1 */
+#section1 {
+	padding-top: 80px;
+	background-color: #ff4632;
+	min-height: 70vh;
+}
+
+#section1 .container {
+	padding: 80px 0;
+}
+
+#section1 .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.text {
+	flex-basis: 50%;
+}
+
+.title1 {
+    font-size: 14px;
+	font-weight: 500;
+	margin-bottom: 32px;
+}
+
+.title2 {
+    font-size: 64px;
+	font-weight: 600;
+	letter-spacing: -0.04em;
+}
+
+.description {
+    font-size: 18px;
+	font-weight: 400;
+	margin-top: 16px;
+}
+
+.button {
+    /* Button shape and color */
+    margin-top: 35px;
+	border-radius: 500px;
+	padding: 17px 48px;
+	background-color: #000;
+    /* Text inside button */
+    font-size: 14px;
+	font-weight: 700;
+	color: #ffffff;
+	letter-spacing: 2px;
+	border: 0;
+}
+
+.note {
+    font-size: 13px;
+	margin: 32px 0;
+}
+
+/* Section 2 */
+#section2 {
+	padding-top: 80px;
+	background-color: #cb1582;
+	min-height: 606px;
+}
+
+#section2 .container {
+	padding: 80px 0;
+}
+
+#section2 .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#section2 .text {
+    color: #a5ffef;
+}
+
+#section2 .title2 {
+    font-weight: 600;
+}
+
+#section2 .button {
+    background-color: #a5ffef;
+    font-size: 14px;
+	font-weight: 750;
+    color: #cb1582;
+}
+
+.under-box {
+    position: relative;
+    width: 527px;
+	height: 320px;
+    background: linear-gradient(blue,lightblue,yellow,orange,red,black);
+}
+
+.upper-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: flex-end;
+    padding: 40px;
+    background-color: #a5ffef;
+    width: 330px;
+    height: 330px;
+    color: #cb1582;
+    font-size: 64px;
+	font-weight: 600;
+}
+
+/* Section 3 */
+#section3 {
+    padding-top: 80px;
+	background-image: url(images/LiE_circles.svg);
+	background-size: auto 100%;
+	color: #1ed760;
+	background-color: #2d46b9;
+	background-position: right center;
+	background-repeat: no-repeat;
+	min-height: 606px;
+}
+
+#section3 .button {
+    background-color: #1ed760;
+    color: #2d46b9;
+}
+
+/* Footer */
+
+footer {
+	background-color: black;
+	color: white;
+	padding-top: 80px;
+	padding-bottom: 50px;
+}
+
+footer a {
+	color: white;
+}
+
+.row1 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.col {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.col * {
+	padding-top: 3px;
+	padding-bottom: 15px;
+}
+
+.left {
+	flex-basis: 60%;
+}
+
+.footer-heading {
+	color: #919496;
+	font-size: 12px;
+	font-weight: 900;
+	line-height: 1.4;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+}
+
+.right a {
+	margin-left: 20px;
+}
+
+.right img {
+	padding: 10px;
+	border-radius: 50%;
+	background-color: #222326;
+}
+
+footer .row2 {
+	text-align: end;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+footer .row3 {
+	color: #919496;
+	font-size: 12px;
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.footer-bottom-links {
+	flex-basis: 60%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
